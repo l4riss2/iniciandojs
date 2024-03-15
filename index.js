@@ -5,7 +5,7 @@ const al1 = 10;
 const al2 = 5; // comentário
 const al3 = 8;
 
-const media = (al1+al2+al3)/2
+const media = (al1+al2+al3)/3
 
 const nomeDoAluno1 = "João";
 const nomeDoAluno2 = "Joãozinho";
@@ -24,4 +24,4 @@ if(media>5){
 else{
      console.log("Caro aluno estude mais pq sua media foi baixa",media);
 }
-primeiro desafio 2 depois o desafio 1
+
