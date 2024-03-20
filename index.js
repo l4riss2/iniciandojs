@@ -23,5 +23,52 @@ if(media>5){
 }
 else{
      console.log("Caro aluno estude mais pq sua media foi baixa",media);
-}
+    }
 
+const n = lais;
+const enderecoDalais= "rua kennedy n4";
+const notaFina = 9.8;
+const salaDalais = 5;
+const turnoDalais = "manha";
+
+const lais = {
+    endereco : "rua kennedy n4",
+    notaf : 9.8,
+    sala : 5,
+    turno : "manha"
+}
+console.log(lais.notaf)
+
+const escola [
+    
+    {
+
+
+
+    },
+    
+    
+    
+    {
+
+
+
+},
+    
+    
+    {
+
+
+
+   
+    
+},
+    
+    
+    
+    
+    
+    {
+
+}
+]
