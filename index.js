@@ -25,50 +25,73 @@ else{
      console.log("Caro aluno estude mais pq sua media foi baixa",media);
     }
 
-const n = lais;
+const n = "lais";
 const enderecoDalais= "rua kennedy n4";
-const notaFina = 9.8;
+const notaFinal = 9.8;
 const salaDalais = 5;
 const turnoDalais = "manha";
 
+//Objeto
 const lais = {
     endereco : "rua kennedy n4",
     notaf : 9.8,
-    sala : 5,
+    salaa : 5,
     turno : "manha"
 }
 console.log(lais.notaf)
 
-const escola [
-    
-    {
-
-
-
-    },
-    
-    
-    
-    {
-
-
-
-},
-    
-    
-    {
-
-
-
-   
-    
-},
-    
-    
-    
-    
-    
-    {
-
-}
+// Arrays
+const escola = [
+     {
+      nome:"lais",
+      endereco:"rua kennedy n4",
+      sala: 4,
+      turno:"manha"},
+     {
+      nome:"lucas",
+      endereco:"rua frei serafim",
+      sala: 3,
+      turno:"manha"}, 
+      {
+       nome:"joao",
+       endereco:"rua sul",
+       sala: 2,
+       turno:"manha"},
 ]
+console.log(escola[1].endereco,escola[1].nome)
+
+// Arrays
+const site = [
+    {
+     us:"j0a0",
+     sn:"Star",
+     id:3334443443},
+    {
+     us:"Gu1lh3rme",
+     sn:"Am0R",
+     id:344543324}, 
+     {
+      us:"Pedr00",
+      sn:"V4Sc00",
+      id:5646478394},
+     {
+      us:"lucas",
+      sn:"fla2",
+      id:7765445678}, 
+     {
+      us:"Gabriel",
+      sn:"fech000",
+      id:393994993},
+]
+console.log("Usuario:",site[3].us,"Senha:",site[3].sn,"Id:",site[3].id)
+
+//Função
+function soma(a,b){
+    return a+b
+}
+console.log(soma(5,6))
+
+//estrutura de repetição(For)
+for(let b = 0; b<5; b++){
+    console.log(b)
+}
